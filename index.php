@@ -1,4 +1,4 @@
-<?
+<?php
   $images = glob("images/*");
   shuffle($images);
 ?>
@@ -36,11 +36,11 @@
   </head>
 
   <body>
-<?
+<?php
   foreach($images as $filename) {
 ?>
     <img src="<?=$filename?>" />
-<?
+<?php
   }
 ?>
   </body>
